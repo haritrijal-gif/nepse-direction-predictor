@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "model": "Majority-class baseline",
+      "accuracy": 0.5625786321775451,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          44716,
+          0
+        ],
+        [
+          34768,
+          0
+        ]
+      ]
+    },
+    {
+      "model": "Naive momentum (repeat today)",
+      "accuracy": 0.5020758894871924,
+      "precision": 0.43109327983951856,
+      "recall": 0.43266797054763,
+      "f1": 0.43187918981381795,
+      "confusion_matrix": [
+        [
+          24864,
+          19852
+        ],
+        [
+          19725,
+          15043
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.5069070504755674,
+      "precision": 0.4365154514935009,
+      "recall": 0.43755752416014726,
+      "f1": 0.4370358666455996,
+      "roc_auc": 0.5009434368777136,
+      "confusion_matrix": [
+        [
+          25078,
+          19638
+        ],
+        [
+          19555,
+          15213
+        ]
+      ]
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.519928539077047,
+      "precision": 0.44586394123283296,
+      "recall": 0.4015186378278877,
+      "f1": 0.4225309482732528,
+      "roc_auc": 0.5129360214531,
+      "confusion_matrix": [
+        [
+          27366,
+          17350
+        ],
+        [
+          20808,
+          13960
+        ]
+      ]
+    }
+  ],
+  "chosen_model": "Random Forest"
+}
